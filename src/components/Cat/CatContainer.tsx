@@ -30,7 +30,7 @@ export default function CatContainer(){
                 setCatList(cats);
                 setLoading(false);
             } catch (e) {
-                console.error("Failed to fetch cats!");
+                console.error("Failed to fetch cats!", e);
             }
         };
         fetchCats();

@@ -7,7 +7,7 @@ const FEATURED_URL: string = "https://api.meow.camera/catHouses/random";
 
 export async function getCats() {
     const response = await axios.get(FEATURED_URL, { timeout: 5000 });
-    const cameras: Object = response['data'];
+    const cameras = response['data'];
     return JSON.stringify(cameras);
 }
 
