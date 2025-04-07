@@ -1,4 +1,3 @@
-'use server'
 import axios from "axios";
 
 const FEATURED_URL: string = "https://api.meow.camera/catHouses/random";
