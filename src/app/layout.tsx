@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/NavBar/NavBar";
-import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar/NavBar.tsx";
+import Footer from "@/components/Footer.tsx";
 
 const kanit = Kanit({
   variable: "--font-kanit",
