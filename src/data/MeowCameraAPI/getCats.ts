@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const FEATURED_URL: string = "https://api.meow.camera/catHouses/random";
-const CAT_URL: string = "https://api.meow.camera/catHouse/";
+//const CAT_URL: string = "https://api.meow.camera/catHouse/";
 
 
 export async function getCats() {

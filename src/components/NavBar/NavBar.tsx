@@ -16,7 +16,7 @@ const NavBar = () => {
                 <div className="flex justify-center lg:gap-8 md:gap-5 sm:gap-2  ">
                     {Object.entries(NavButtons).map(([key, value]) => (
                         <>
-                        <HeaderButton key={key} children={key} href={value}/>
+                        <HeaderButton key={key} href={value}>{key}</HeaderButton>
                         {key !== "Cats" && (<div key={key + "43"} className=" h-full w-1 border border-stone-500 rounded-full bg-[#3e3b41] " /> )}
                         </>
                     ))}

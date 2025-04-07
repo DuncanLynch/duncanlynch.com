@@ -21,6 +21,7 @@ const Page = ({}) => {
             duration={"02/24 - Present"} 
             desc={"The website you're looking at! It was developed with next.js and tailwind!"}
             url={"https://github.com/DuncanLynch/Personal-Website/"} 
+            img={null}
             />
         </div>
     );
