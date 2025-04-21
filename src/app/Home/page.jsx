@@ -8,8 +8,9 @@ const Page = ({}) => {
                 <header className="text-3xl text-center">Recent News</header>
                 <view className="rounded-full h-1 w-full  bg-white"/>
                 <ul className="py-2 px-2 text-lg">
-                    <li className=" px-2 py-2 hover:bg-[#786f7e] rounded-md transition-all duration-75">2/16/25  -  I am in the process of designing the website rn! </li>
-                    <li className=" px-2 py-2 hover:bg-[#786f7e] rounded-md transition-all duration-75"><a onClick={() => {router.push("/Cats")}}>2/23/25  -  I created the Cats tab, check it out (or click here?!?!?) to see links to all active cat feeders on meow.camera!!!!!</a></li>
+                    <li className=" px-2 py-2 hover:bg-[#786f7e] rounded-md transition-all duration-75">2/16/25  -  I am in the process of designing the website. </li>
+                    <li className=" px-2 py-2 hover:bg-[#786f7e] rounded-md transition-all duration-75"><a onClick={() => {router.push("/Cats")}}>2/23/25  -  I created the Cats tab, check it out on the Navigation bar, or click here, to see links to all active cat feeders on meow.camera!</a></li>
+                    <li className=" px-2 py-2 hover:bg-[#786f7e] rounded-md transition-all duration-75">4/20/25  -  I have pushed the site onto Github Pages temporarily while I get duncanlynch.com operational.</li>
                 </ul>
             </div>
         </div>
